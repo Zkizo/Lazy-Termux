@@ -25,9 +25,7 @@ echo " "
 echo " "
 echo " "
 echo " "
-echo -e "\e[1m\e[31m\
-
-
+echo -e "$red
                  ,---.                                           ,--.--------.    ,----.                     ___                      ,-.--, 
        _.-.    .--.'  \      ,--,----.,--.-.  .-,--.            /==/,  -   , -\,-.--` , \  .-.,.---.  .-._ .'=.'\ .--.-. .-.-.--.-.  /=/, .' 
     .-,.'|    \==\-/\ \    /==/` - ./==/- / /=/_ /,--.--------.\==\.-.  - ,-./==|-  _.-` /==/  `   \/==/ \|==|  /==/ -|/=/  \==\ -\/=/- /   
@@ -37,8 +35,7 @@ echo -e "\e[1m\e[31m\
     |==|- `-._/==/-  /\ - \/==/, `--`\ \==\-, /                       |==|, ||==|_  ,`-._|==|_  . ,'.|==| _ /\   |==|-   ,   /==/, .--, - \  
     /==/ - , ,|==\ _.\=\.-'\==\-  -, | /==/._/                        /==/ -//==/ ,     //==/  /\ ,  )==/  / / , /==/ , _  .'\==\- \/=/ , /  
     `--`-----' `--`         `--`.-.--` `--`-`                         `--`--``--`-----`` `--`-`--`--'`--`./  `--``--`..---'   `--`-'  `--`   
-                                                                                                            v 1.0 
-"
+                                                                                                            v 1.0$rset"
 #red                            [------------------ Welcome To Termux ------------------]
 echo " "  
 echo -e  "                  \e[1m\e[32m▂▃▄▅▆▇▓▒░Coded By \e[31m˜”*°•.˜”*°• Pralhad-Nasane •°*”˜.•°*”˜ \e[1m\e[32m░▒▓▇▆▅▄▃▂"
@@ -68,6 +65,11 @@ echo -e "$red                         You are going to$grn Install$red Packages$
 echo " "
 echo -e "$grn                               Press$ylo ENTER$red to continue$rset"
 echo " "
+echo  "$yellow+++++++++++>$p[Please Wait]$yellow<+++++++++++"
+sleep 0.4
+echo " "
+cd $HOME
+
 echo "$green Updatecho "$greeneing Termux...."
 apt update && apt upgrade
 echo ""
@@ -103,3 +105,11 @@ pip2 install colorama
       gem install lolcat
       echo "$green installation of lolcat ......DONE !"
   fi
+echo -e "$grn
+                       ____  _  _  ____    ____  _  _  ____ 
+                      (  _ \( \/ )( ___)  (  _ \( \/ )( ___)
+                      ) _ < \  /  )__)    ) _ < \  /  )__) 
+                      (____/ (__) (____)  (____/ (__) (____)...$cyan have a awesome day$rset"
+echo " "
+echo " "
+exit
