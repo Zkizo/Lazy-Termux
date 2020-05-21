@@ -1,3 +1,5 @@
+#wooh Your Packages Are Going To Imstall Now.....
+#Please Wait.....
 echo "$green Updateing Termux...."
 apt update && apt upgrade
 echo ""
@@ -33,3 +35,9 @@ pip2 install colorama
       gem install lolcat
       echo "$green installation of lolcat ......DONE !"
   fi
+echo "$green installation Finished !" 
+echo ""
+echo "$yellow Now Enjoy Your Hacking Life.."
+echo ""
+echo "$cyan Follow Pralhad Nasane Github account for more tools."
+echo "" 
