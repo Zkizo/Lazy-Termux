@@ -26,7 +26,6 @@ echo " "
 echo " "
 echo " "
 echo -e "$red
- 
 #   _                          _____                              
 #  | |                        |_   _|                             
 #  | |     __ _ _____   _ ______| | ___ _ __ _ __ ___  _   ___  __
@@ -60,7 +59,7 @@ echo -e "$cyan                              [[[$ylo Select any option$cyan]]]$rs
 echo " "
 read n
 case "$n" in
-1)echo " "
+echo " "
 echo " "
 echo " "
 echo -e "$red                         You are going to$grn Install$red Packages$rset"
