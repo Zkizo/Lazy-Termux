@@ -1,6 +1,6 @@
 #wooh Your Packages Are Going To Imstall Now.....
 #Please Wait.....
-echi "$green Setting Up Termux Storage...."
+echo "$green Setting Up Termux Storage...."
 termux-setup-storage
 echo ""
 echo "$green Updateing Termux...."
