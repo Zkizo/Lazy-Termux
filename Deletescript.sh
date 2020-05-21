@@ -22,7 +22,8 @@ sleep 2.0
 echo " "
 echo " "
 cd $HOME
-rm -rf m-wiz
+rm -rf Lazy-Termux
+ls
 clear
 echo " "
 echo " "
@@ -30,6 +31,3 @@ echo -e "$grn          Thank you for $red using LazyTermux tool,$ylo have a nice
 sleep 3.0
 echo " "
 echo " "
-clear
-cd $HOME
-ls
