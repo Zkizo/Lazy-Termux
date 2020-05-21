@@ -15,17 +15,13 @@ white='\033[1;97m'
 #—--------------------
 clear
 echo " "
-echo -e "$red
-
-  _                         _______                             
- | |                       |__   __|                            
- | |     __ _ _____   _ ______| | ___ _ __ _ __ ___  _   ___  __
- | |    / _`  _  /      ______   / _ \ '__| '_ ` _ \| | | \ \/ /
- | |___| (_| |/ /| |_| |      | |  __/ |  | | | | | | |_| |>  < 
- |______\__,_/___|\__, |      |_|\___|_|  |_| |_| |_|\__,_/_/\_\
-                   __/ |                                        
-                  |___/     V1.0$rset"                                    
-echo " " 
+echo -e "$red    
+ __         ______     ______     __  __     ______   ______     ______     __    __     __  __     __  __    
+/\ \       /\  __ \   /\___  \   /\ \_\ \   /\__  _\ /\  ___\   /\  == \   /\ "-./  \   /\ \/\ \   /\_\_\_\   
+\ \ \____  \ \  __ \  \/_/  /__  \ \____ \  \/_/\ \/ \ \  __\   \ \  __<   \ \ \-./\ \  \ \ \_\ \  \/_/\_\/_  
+ \ \_____\  \ \_\ \_\   /\_____\  \/\_____\    \ \_\  \ \_____\  \ \_\ \_\  \ \_\ \ \_\  \ \_____\   /\_\/\_\ 
+  \/_____/   \/_/\/_/   \/_____/   \/_____/     \/_/   \/_____/   \/_/ /_/   \/_/  \/_/   \/_____/   \/_/\/_/ 
+                                                                         V1.0$rset"                                     
 
 echo -e "$red                      ▶ Coded by$grn PRALHAD NASANE.$red ◀$rset"
 echo -e "$red            ⫸$ylo Follow Me For More Interesting Scripts$red ⫷$rset"
@@ -37,10 +33,10 @@ echo " "
 echo -e "$grn              ＞＞＞＞>>>＞$ylo [Options]$grn ＜<<<＜＜＜＜$rset"
 echo " "
 echo " "
-echo -e "$red                        ➡$cyan [1️⃣] Install Packages"
-echo -e "$red                        ➡$cyan [2️⃣] Update Script"
-echo -e "$red                        ➡️$cyan [3️⃣] Delete Script"
-echo -e "$red                        ➡$cyan [4️⃣] Exit"
+echo -e "$red                        ➡$yellow [1️⃣] Install Packages"
+echo -e "$red                        ➡$yellow [2️⃣] Update Script"
+echo -e "$red                        ➡️$yellow [3️⃣] Delete Script"
+echo -e "$red                        ➡$yellow [4️⃣] Exit"
 echo " "
 echo " "
 echo -e "$grn               >＞＞＞＞＞$ylo [SELECT]$grn ＜＜＜＜＜<$rset"
@@ -65,6 +61,7 @@ echo " "
 echo -e "$grn ＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜$rset"
 echo " "
 clear
+read nit
 2)echo " "
 echo " "
 echo " "
@@ -76,6 +73,7 @@ cd $HOME/Lazy-Termux
 ls
 bash updatescript.sh
 echo " "
+read nill
 3)echo " "
 echo " "
 echo " "
@@ -87,6 +85,7 @@ cd $HOME/Lazy-Termux
 ls
 bash Deletescript.sh
 echo " "
+read hello
 4)
 sleep 2.0
 clear
