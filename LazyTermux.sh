@@ -1,3 +1,6 @@
+clear
+echo ""
+echo ""
 #Hello Guys,This is my first script which help you to install all basic packages on termux..
 # Tool Name :- Lazy-Termux
 # Author :- Pralhad-Nasane
@@ -13,15 +16,17 @@ purple='\033[1;95m'
 cyan='\033[1;96m'
 white='\033[1;97m'
 #—--------------------
-clear
+echo ""
+echo ""
+echo ""
+echo -e "$red
+ __     __   ____  _  _     ____  ____  ____  _  _  _  _  _  _ 
+(  )   / _\ (__  )( \/ )___(_  _)(  __)(  _ \( \/ )/ )( \( \/ )
+/ (_/\/    \ / _/  )  /(___) )(   ) _)  )   // \/ \) \/ ( )  ( 
+\____/\_/\_/(____)(__/      (__) (____)(__\_)\_)(_/\____/(_/\_)
+                                       V 1.0$rset"
+
 echo " "
-echo -e "$red    
- __         ______     ______     __  __     ______   ______     ______     __    __     __  __     __  __    
-/\ \       /\  __ \   /\___  \   /\ \_\ \   /\__  _\ /\  ___\   /\  == \   /\ "-./  \   /\ \/\ \   /\_\_\_\   
-\ \ \____  \ \  __ \  \/_/  /__  \ \____ \  \/_/\ \/ \ \  __\   \ \  __<   \ \ \-./\ \  \ \ \_\ \  \/_/\_\/_  
- \ \_____\  \ \_\ \_\   /\_____\  \/\_____\    \ \_\  \ \_____\  \ \_\ \_\  \ \_\ \ \_\  \ \_____\   /\_\/\_\ 
-  \/_____/   \/_/\/_/   \/_____/   \/_____/     \/_/   \/_____/   \/_/ /_/   \/_/  \/_/   \/_____/   \/_/\/_/ 
-                                                                         V1.0$rset"                                     
 
 echo -e "$red                      ▶ Coded by$grn PRALHAD NASANE.$red ◀$rset"
 echo -e "$red            ⫸$ylo Follow Me For More Interesting Scripts$red ⫷$rset"
@@ -30,7 +35,7 @@ echo
 echo -e "$red                       [Enjoy With Me...]$rset"
 echo " "
 echo " "
-echo -e "$grn              ＞＞＞＞>>>＞$ylo [Options]$grn ＜<<<＜＜＜＜$rset"
+echo -e "$grn             ＞＞＞＞＞＞＞＞$ylo [Options]$grn ＜＜＜＜＜＜＜＜$rset"
 echo " "
 echo " "
 echo -e "$red                        ➡$yellow [1️⃣] Install Packages"
