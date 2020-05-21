@@ -60,7 +60,7 @@ echo " "
 read hulke
 cd $HOME/Lazy-Termux
 ls
-bash Package.sh
+bash Packages.sh
 echo " "
 echo " "
 echo -e "$grn ＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜$rset"
@@ -85,7 +85,7 @@ echo -e "$grn                                   Press$red ENTER$grn to continue$
 echo " "
 cd $HOME/Lazy-Termux
 ls
-bash deletescript.sh
+bash Deletescript.sh
 echo " "
 10)
 sleep 2.0
