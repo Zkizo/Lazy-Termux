@@ -28,8 +28,8 @@ echo -e "$red
 
 echo " "
 
-echo -e "$red                   ▶ Coded by$grn PRALHAD NASANE.$red ◀$rset"
-echo -e "$red            ⫸$ylo Follow Me For More Interesting Scripts$red ⫷$rset"
+echo -e "$yellow                   ▶ Coded by$grn PRALHAD NASANE.$red ◀$rset"
+echo -e "$green            ⫸$ylo Follow Me For More Interesting Scripts$red ⫷$rset"
 echo 
 # Functions
 echo -e "$red                       [Enjoy With Me...]$rset"
@@ -53,19 +53,33 @@ case "$n" in
 1)echo " "
 echo " "
 echo " "
-echo -e "$red               You are going to$grn Install Packages..$red Now$rset"
+echo -e "$green               You are going to$grn Install Packages..$red Now$rset"
 echo " "
-echo -e "$grn                  Press$red ENTER$red to continue$rset"
+echo -e "$green                  Press$red ENTER$red to continue$rset"
 echo " "
 read hulke
 cd $HOME/Lazy-Termux
-ls
+echo " "
+echo -e "$ylo -----------To terminate the process click$red 'Y'$ylo or to continue click on$grn ENTER$rset" 
+read choice
+if [ $choice = 'Y' ] ; then
+echo -e "$yellow ==================Are you sure? Press$grn ENTER$red to exit$rset"
+read hulkee
+cd $HOME/Lazy-Termux
+bash LazyTermux.sh
+else
 bash Packages.sh
 echo " "
 echo " "
 echo -e "$grn ＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜$rset"
 echo " "
-clear
+echo -e "$white  click$grn ENTER$cyan to go back into Lazy-Termux menu$rset"
+echo " "
+read punch
+fi
+cd $HOME/Lazy-Termux
+ls
+bash LazyTermux.sh ;;
 read nit
 2)echo " "
 echo " "
