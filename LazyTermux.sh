@@ -87,7 +87,7 @@ cd $HOME/Lazy-Termux
 ls
 bash Deletescript.sh
 echo " "
-10)
+4)
 sleep 2.0
 clear
 echo " "
