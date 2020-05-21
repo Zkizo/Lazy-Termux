@@ -35,7 +35,7 @@ echo -e "$grn                updating the Lazy-Termux please wait$rset"
 sleep 2.0
 cd $HOME
 rm -rf Lazy-Termux
-git clone https://github.com/noob-hackers/m-wiz
+git clone https://github.com/Pralhad-Nasane/Lazy-Termux.git
 clear
 echo " "
 echo -e "$grn               Lazy-Termux has been updated check it now...$rset"
