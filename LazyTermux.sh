@@ -94,7 +94,6 @@ echo " "
 
 3)echo " "
 echo " "
-echo " "
 echo -e "$red                          You are going to$red delete script$rset"
 echo " "
 echo -e "$grn                                   Press$red ENTER$grn to continue$rset"
