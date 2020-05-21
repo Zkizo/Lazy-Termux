@@ -1,5 +1,8 @@
 #wooh Your Packages Are Going To Imstall Now.....
 #Please Wait.....
+echi "$green Setting Up Termux Storage...."
+termux-setup-storage
+echo ""
 echo "$green Updateing Termux...."
 apt update && apt upgrade
 echo ""
@@ -68,3 +71,5 @@ echo ""
 
 echo "$cyan Follow Pralhad Nasane Github account for more tools."
 echo ""
+echo ""
+exit
