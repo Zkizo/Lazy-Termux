@@ -80,7 +80,7 @@ fi
 cd $HOME/Lazy-Termux
 ls
 bash LazyTermux.sh ;;
-read nit
+
 2)echo " "
 echo " "
 echo -e "$red                          You are going to$grn Update Script$rset "
@@ -91,7 +91,7 @@ cd $HOME/Lazy-Termux
 ls
 bash updatescript.sh
 echo " "
-read nill
+
 3)echo " "
 echo " "
 echo " "
@@ -103,7 +103,7 @@ cd $HOME/Lazy-Termux
 ls
 bash Deletescript.sh
 echo " "
-read hello
+
 4)
 sleep 2.0
 clear
