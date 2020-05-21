@@ -15,7 +15,7 @@ white='\033[1;97m'
 #—--------------------
 clear
 echo " "
-echo -e "\e[1m\e[31m\
+echo -e "$red
 
       _                         _______                             
      | |                       |__   __|                            
@@ -28,7 +28,7 @@ echo -e "\e[1m\e[31m\
 
 echo " " 
 
-echo -e "$red                 ▶ Coded by$grn PRALHAD NASANE.$red ◀$rset"
+echo -e "$red                      ▶ Coded by$grn PRALHAD NASANE.$red ◀$rset"
 echo -e "$red            ⫸$ylo Follow Me For More Interesting Scripts$red ⫷$rset"
 echo 
 # Functions
