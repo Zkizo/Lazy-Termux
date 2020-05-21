@@ -12,7 +12,33 @@ echo ""
 echo "$green installing Curl....."
 pkg install curl
 echo ""
-echo "$green installing Curl....."
+echo "$green Installing C language...."
+pkg install clang
+echo ""
+echo "$green Installing Wget...."
+apt install wget
+echo ""
+echo "$green Installing ZIP...."
+apt install zip
+echo ""
+echo "$green Installing UNZIP...."
+apt install unzip
+echo ""
+echo "$green Installing UNRAR...."
+apt install unrar
+echo ""
+echo "$green Installing VIM...."
+apt install vim
+echo ""
+echo "$green Installing NANO...."
+pkg install nano
+echo ""
+echo "$green Installing TOR...."
+pkg install tor
+echo ""
+echo "$green Installing FIGLET...."
+pkg install figlet
+echo ""
 pkg install hydra
 apt install hydra
 echo ""
@@ -39,5 +65,6 @@ echo "$green installation Finished !"
 echo ""
 echo "$yellow Now Enjoy Your Hacking Life.."
 echo ""
+
 echo "$cyan Follow Pralhad Nasane Github account for more tools."
-echo "" 
+echo ""
