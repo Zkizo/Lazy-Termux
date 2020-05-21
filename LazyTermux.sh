@@ -20,15 +20,15 @@ echo ""
 echo ""
 echo ""
 echo -e "$red
- __     __   ____  _  _     ____  ____  ____  _  _  _  _  _  _ 
-(  )   / _\ (__  )( \/ )___(_  _)(  __)(  _ \( \/ )/ )( \( \/ )
-/ (_/\/    \ / _/  )  /(___) )(   ) _)  )   // \/ \) \/ ( )  ( 
-\____/\_/\_/(____)(__/      (__) (____)(__\_)\_)(_/\____/(_/\_)
+   __     __   ____  _  _     ____  ____  ____  _  _  _  _  _  _ 
+  (  )   / _\ (__  )( \/ )___(_  _)(  __)(  _ \( \/ )/ )( \( \/ )
+  / (_/\/    \ / _/  )  /(___) )(   ) _)  )   // \/ \) \/ ( )  ( 
+  \____/\_/\_/(____)(__/      (__) (____)(__\_)\_)(_/\____/(_/\_)
                                        V 1.0$rset"
 
 echo " "
 
-echo -e "$red                      ▶ Coded by$grn PRALHAD NASANE.$red ◀$rset"
+echo -e "$red                   ▶ Coded by$grn PRALHAD NASANE.$red ◀$rset"
 echo -e "$red            ⫸$ylo Follow Me For More Interesting Scripts$red ⫷$rset"
 echo 
 # Functions
@@ -68,7 +68,6 @@ echo " "
 clear
 read nit
 2)echo " "
-echo " "
 echo " "
 echo -e "$red                          You are going to$grn Update Script$rset "
 echo " "
