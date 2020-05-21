@@ -1,6 +1,6 @@
 #Hello Guys,This is my first script which help you to install all basic packages on termux..
 # Tool Name :- Lazy-Termux
-# Author :- Pralhad Nasane
+# Author :- Pralhad-Nasane
 # Date :- 21 May 2020
 clear
 # scripting starts
@@ -55,6 +55,57 @@ echo " "
 echo " "
 echo -e "$red               You are going to$grn Install Packages..$red Now$rset"
 echo " "
-echo -e "$grn                  Press$ylo ENTER$red to continue$rset"
+echo -e "$grn                  Press$red ENTER$red to continue$rset"
 echo " "
 read hulke
+cd $HOME/Lazy-Termux
+ls
+bash Package.sh
+echo " "
+echo " "
+echo -e "$grn ＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜$rset"
+echo " "
+2)echo " "
+echo " "
+echo " "
+echo -e "$red                          You are going to$grn Update Script$rset "
+echo " "
+echo -e "$grn                                Press$red ENTER$grn to continue$rset"
+echo " "
+cd $HOME/Lazy-Termux
+ls
+bash updatescript.sh
+echo " "
+3)echo " "
+echo " "
+echo " "
+echo -e "$red                          You are going to$red delete script$rset"
+echo " "
+echo -e "$grn                                   Press$red ENTER$grn to continue$rset"
+echo " "
+cd $HOME/Lazy-Termux
+ls
+bash deletescript.sh
+echo " "
+10)
+sleep 2.0
+clear
+echo " "
+echo -e "$yellow
+
+ .----------------.  .----------------.  .----------------. 
+| .--------------. || .--------------. || .--------------. |
+| |   ______     | || |  ____  ____  | || |  _________   | |
+| |  |_   _ \    | || | |_  _||_  _| | || | |_   ___  |  | |
+| |    | |_) |   | || |   \ \  / /   | || |   | |_  \_|  | |
+| |    |  __'.   | || |    \ \/ /    | || |   |  _|  _   | |
+| |   _| |__) |  | || |    _|  |_    | || |  _| |___/ |  | |
+| |  |_______/   | || |   |______|   | || | |_________|  | |
+| |              | || |              | || |              | |
+| '--------------' || '--------------' || '--------------' |
+ '----------------'  '----------------'  '----------------' 
+                                     ...$cyan have a nice day$rset"
+echo " "
+echo " "
+exit
+esac
