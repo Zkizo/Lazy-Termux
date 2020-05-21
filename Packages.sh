@@ -21,37 +21,45 @@ echo ""
 echo "$green Installing Wget...."
 apt install wget
 echo ""
-echo "$green Installing ZIP...."
+echo "$green[----------------Installing ZIP----------------]"
 apt install zip
 echo ""
-echo "$green Installing UNZIP...."
+echo "$green[----------------Installing UNZIP--------------]"
 apt install unzip
 echo ""
-echo "$green Installing UNRAR...."
+echo "$green[----------------Installing UNRAR--------------]"
 apt install unrar
 echo ""
-echo "$green Installing VIM...."
+echo "$green[----------------Installing VIM----------------]"
 apt install vim
 echo ""
-echo "$green Installing NANO...."
+echo "$green[----------------Installing NANO---------------]"
 pkg install nano
 echo ""
-echo "$green Installing TOR...."
+echo ""
+echo "$green[----------------Installing TOR----------------]"
 pkg install tor
 echo ""
-echo "$green Installing FIGLET...."
+echo ""
+echo "$green[----------------Installing FIGLET-------------]"
 pkg install figlet
 echo ""
 pkg install hydra
 apt install hydra
 echo ""
-echo "$green installing Python + requirements...."
+echo ""
+echo "$green[----------------installing Python + requirements-----------]"
 pkg install python
 pkg install python2
 pip install requests
 pip2 install requests
 pip install colorama
 pip2 install colorama
+echo ""
+echo ""
+echo "$yellow [------------------Upgrading Pip---------------] "
+pip install --upgrade pip
+echo ""
 
   if [ -f /data/data/com.termux/files/usr/bin/lolcat ];
   then
