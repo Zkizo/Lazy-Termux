@@ -28,7 +28,7 @@ Open Your Terminal And start Typing Following Commands👇🏻😉
 
 *  pkg install git
 
-*  git clone 
+*  git clone https://github.com/Pralhad-Nasane/Lazy-Termux
 
 *  ls
 
