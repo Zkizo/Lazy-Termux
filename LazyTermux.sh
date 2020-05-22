@@ -28,7 +28,7 @@ echo -e "$red
 
 echo " "
 
-echo -e "$yellow                   ▶ Coded by$grn PRALHAD NASANE.$red ◀$rset"
+echo -e "$yellow        ▶ Coded by$grn ˜”*°•.˜”*°• Pralhad Nasane •°*”˜.•°*”˜ $red ◀$rset"
 echo -e "$green            ⫸$ylo Follow Me For More Interesting Scripts$red ⫷$rset"
 echo 
 # Functions
@@ -63,7 +63,7 @@ echo " "
 echo -e "$ylo -----------To terminate the process click$red 'Y'$ylo or to continue click on$grn ENTER$rset" 
 read choice
 if [ $choice = 'Y' ] ; then
-echo -e "$yellow ==================Are you sure? Press$grn ENTER$red to exit$rset"
+echo -e "$yellow [==================Are you sure? Press$grn ENTER$red to exit===============]$rset"
 read hulkee
 cd $HOME/Lazy-Termux
 bash LazyTermux.sh
@@ -71,7 +71,7 @@ else
 bash Packages.sh
 echo " "
 echo " "
-echo -e "$grn ＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜$rset"
+echo -e "$grn ＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜$rset"
 echo " "
 echo -e "$white  click$grn ENTER$cyan to go back into Lazy-Termux menu$rset"
 echo " "
@@ -163,5 +163,4 @@ echo -e "$yellow
                                      ...$cyan have a nice day$rset"
 echo " "
 echo " "
-exit
 esac
