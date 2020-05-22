@@ -130,6 +130,6 @@ echo ""
 echo "$yellow Now Enjoy Your Hacking Life.."
 echo ""
 
-echo "$cyan Follow Pralhad Nasane Github account for more tools."
+echo "$yellow Follow Pralhad Nasane Github account for more tools."
 echo ""
 echo ""
